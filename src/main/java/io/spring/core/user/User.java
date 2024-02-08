@@ -5,6 +5,8 @@ import java.util.UUID;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+//java default packages
+
 
 @Getter
 @NoArgsConstructor
@@ -16,6 +18,7 @@ public class User {
   private String password;
   private String bio;
   private String image;
+  // variable define
 
   public User(String email, String username, String password, String bio, String image) {
     this.id = UUID.randomUUID().toString();
