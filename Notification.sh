@@ -6,7 +6,10 @@ mkdir mysql
 cd mysql
 
 # Install wget to download files
-sudo yum install wget -y
+sudo yum install -y wget
+
+# Install nano to download files
+sudo yum install -y nano
 
 # Download the MySQL RPM bundle
 wget https://cdn.mysql.com//Downloads/MySQL-8.3/mysql-8.3.0-1.el9.x86_64.rpm-bundle.tar 
