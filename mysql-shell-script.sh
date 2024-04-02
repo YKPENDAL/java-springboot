@@ -1,4 +1,5 @@
 #!/bin/bash
+# !/bin/bash
 # Script to install MySQL 8.3 on CentOS/RHEL 9
 
 # Create a directory for MySQL installation
