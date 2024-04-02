@@ -73,6 +73,6 @@ tasks.named('generateJava') {
     packageName = 'io.spring.graphql' // The package name to use to generate sources
 }
 
-
+=======
 
 
