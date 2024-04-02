@@ -45,12 +45,12 @@ sudo systemctl enable --now mysqld
 # Check MySQL service status
 sudo systemctl status mysqld
 
+# Download and install MySQL Shell
+wget https://cdn.mysql.com//Downloads/MySQL-Shell/mysql-shell-8.3.0-1.el9.x86_64.rpm
+sudo yum install -y mysql-shell-8.3.0-1.el9.x86_64.rpm
+
 # Display MySQL log
 sudo cat /var/log/mysqld.log
 
 # Run MySQL secure installation for initial setup
 mysql_secure_installation
-
-# Download and install MySQL Shell
-wget https://cdn.mysql.com//Downloads/MySQL-Shell/mysql-shell-8.3.0-1.el9.x86_64.rpm
-sudo yum install -y mysql-shell-8.3.0-1.el9.x86_64.rpm
